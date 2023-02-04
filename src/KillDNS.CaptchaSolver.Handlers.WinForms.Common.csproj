@@ -2,12 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net7.0-windows</TargetFramework>
+        <EnableWindowsTargeting>true</EnableWindowsTargeting>
         <Nullable>enable</Nullable>
         <UseWindowsForms>true</UseWindowsForms>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>KillDNS.CaptchaSolver.Handlers.WinForms</RootNamespace>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Title>KillDNS.CaptchaSolver.Handlers.WinForms.Common</Title>
         <Authors>Kirill Danshin</Authors>
         <Description>Common library for WinForms captcha handlers libraries.</Description>
@@ -16,7 +17,7 @@
         <PackageIcon>logo_128.png</PackageIcon>
         <RepositoryUrl>https://github.com/KillDNS-Captcha-Solver/handlers-winforms-common</RepositoryUrl>
         <RepositoryType>Github</RepositoryType>
-        <AssemblyVersion>0.0.1</AssemblyVersion>
+        <AssemblyVersion>0.0.2</AssemblyVersion>
     </PropertyGroup>
 
     <ItemGroup>
